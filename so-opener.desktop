@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Syrinscape Online URI Handler
+Exec=SOUriHandler %u
+StartupNotify=false
+Terminal=false
+MimeType=x-scheme-handler/syrinscape-online;

@@ -1,0 +1,9 @@
+#!/bin/bash
+if [[ "$1" == "syrinscape-online:"* ]]; then	
+	uri="$1"
+	prefix="https"
+	uri=${uri/syrinscape-online/$prefix}
+	curl $uri
+else
+	xdg-open "$1"
+fi
